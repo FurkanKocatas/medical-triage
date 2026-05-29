@@ -1,24 +1,0 @@
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[*] device=cuda dtype=torch.bfloat16
-Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  50%|####9     | 144/290 [00:00<00:00, 1424.23it/s]Loading weights:  99%|#########8| 287/290 [00:00<00:00, 1406.39it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 1416.78it/s]
-Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|##########| 10/10 [00:00<?, ?it/s]
-[*] evaluating 553 samples
-  50/553 done (avg latency 3374.5ms)
-  100/553 done (avg latency 3255.3ms)
-  150/553 done (avg latency 3220.9ms)
-  200/553 done (avg latency 3188.2ms)
-  250/553 done (avg latency 3168.3ms)
-  300/553 done (avg latency 3155.5ms)
-  350/553 done (avg latency 3145.8ms)
-  400/553 done (avg latency 3137.7ms)
-  450/553 done (avg latency 3131.2ms)
-  500/553 done (avg latency 3125.7ms)
-  550/553 done (avg latency 3119.2ms)
-
-=== Results [smollm2_zeroshot] ===
-  parse_ok: 2.7%
-  latency: 3118.8ms (p95=3347.0ms)
-  size: 727.1MB (base model)
-  peak GPU: 866MB
-  TRIAJ acc=0.0 macro-F1=0.0 weighted-F1=0.0 FGR=0.0 FNR-Red=1.0
-  BOLUM acc=0.0 macro-F1=0.0 weighted-F1=0.0

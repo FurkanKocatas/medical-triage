@@ -1,25 +1,0 @@
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[*] device=cuda dtype=torch.bfloat16
-Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  53%|#####2    | 153/290 [00:00<00:00, 1521.64it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 1543.23it/s]
-W0424 20:42:09.368000 19540 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
-[*] adapter loaded + merged: models\smollm2_360m_qlora\final_adapter
-[*] evaluating 553 samples
-  50/553 done (avg latency 1657.1ms)
-  100/553 done (avg latency 1714.2ms)
-  150/553 done (avg latency 1709.5ms)
-  200/553 done (avg latency 1697.7ms)
-  250/553 done (avg latency 1675.8ms)
-  300/553 done (avg latency 1690.9ms)
-  350/553 done (avg latency 1688.2ms)
-  400/553 done (avg latency 1695.3ms)
-  450/553 done (avg latency 1678.9ms)
-  500/553 done (avg latency 1692.5ms)
-  550/553 done (avg latency 1707.0ms)
-
-=== Results [smollm2_ft] ===
-  parse_ok: 91.5%
-  latency: 1706.1ms (p95=3061.7ms)
-  size: 21.0MB (adapter only)
-  peak GPU: 867MB
-  TRIAJ acc=0.5624 macro-F1=0.2436 weighted-F1=0.456 FGR=0.0 FNR-Red=1.0
-  BOLUM acc=0.1031 macro-F1=0.0228 weighted-F1=0.056

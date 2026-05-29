@@ -15,6 +15,12 @@ hf_cache/
 # --- Eğitim checkpoint'leri (optimizer state, ~142MB/dosya; final_adapter yeterli) ---
 models/**/checkpoint-*/
 
+# --- Çalıştırma logları (kod değil; yeniden üretilebilir) ---
+logs/
+
+# --- Sunum (hocaya ayrı gönderilir; repoda tutulmaz) ---
+sunum.pptx
+
 # --- Geçici / hassas dosyalar ---
 tmp.bin/
 *.gpg

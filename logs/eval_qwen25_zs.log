@@ -1,24 +1,0 @@
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[*] device=cuda dtype=torch.bfloat16
-Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<00:58,  5.72it/s]Loading weights:  12%|#2        | 41/338 [00:00<00:01, 176.02it/s]Loading weights:  26%|##5       | 87/338 [00:00<00:00, 283.14it/s]Loading weights:  37%|###6      | 125/338 [00:00<00:00, 312.16it/s]Loading weights:  51%|#####     | 171/338 [00:00<00:00, 359.10it/s]Loading weights:  65%|######4   | 219/338 [00:00<00:00, 383.44it/s]Loading weights:  79%|#######8  | 267/338 [00:00<00:00, 408.28it/s]Loading weights:  91%|#########1| 309/338 [00:00<00:00, 404.19it/s]Loading weights: 100%|##########| 338/338 [00:00<00:00, 348.10it/s]
-Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  10%|#         | 1/10 [00:00<00:08,  1.08it/s]Fetching 10 files:  20%|##        | 2/10 [00:03<00:13,  1.65s/it]Fetching 10 files:  70%|#######   | 7/10 [02:04<01:00, 20.00s/it]Fetching 10 files: 100%|##########| 10/10 [02:04<00:00, 12.49s/it]
-[*] evaluating 553 samples
-  50/553 done (avg latency 1779.7ms)
-  100/553 done (avg latency 1797.5ms)
-  150/553 done (avg latency 1792.9ms)
-  200/553 done (avg latency 1771.0ms)
-  250/553 done (avg latency 1760.3ms)
-  300/553 done (avg latency 1774.2ms)
-  350/553 done (avg latency 1781.3ms)
-  400/553 done (avg latency 1773.5ms)
-  450/553 done (avg latency 1783.5ms)
-  500/553 done (avg latency 1767.5ms)
-  550/553 done (avg latency 1769.5ms)
-
-=== Results [qwen25_zeroshot] ===
-  parse_ok: 80.8%
-  latency: 1768.7ms (p95=2864.2ms)
-  size: 3099.0MB (base model)
-  peak GPU: 3176MB
-  TRIAJ acc=0.0 macro-F1=0.0 weighted-F1=0.0 FGR=0.0 FNR-Red=1.0
-  BOLUM acc=0.0 macro-F1=0.0 weighted-F1=0.0

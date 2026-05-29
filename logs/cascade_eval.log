@@ -1,28 +1,0 @@
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[*] L1: HuggingFaceTB/SmolLM2-360M + models/smollm2_360m_qlora/final_adapter
-Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<00:28,  9.99it/s]Loading weights:  15%|#5        | 44/290 [00:00<00:00, 255.18it/s]Loading weights:  29%|##9       | 85/290 [00:00<00:00, 319.49it/s]Loading weights:  43%|####3     | 125/290 [00:00<00:00, 349.85it/s]Loading weights:  58%|#####7    | 167/290 [00:00<00:00, 371.62it/s]Loading weights:  73%|#######2  | 211/290 [00:00<00:00, 389.82it/s]Loading weights:  88%|########7 | 255/290 [00:00<00:00, 405.75it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 364.20it/s]
-W0425 12:38:01.974000 13620 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
-[*] L2: Qwen/Qwen2.5-1.5B + models/qwen25_15b_lora_balanced/final_adapter
-Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:45,  3.20it/s]Loading weights:   5%|4         | 16/338 [00:00<00:06, 48.88it/s]Loading weights:  12%|#1        | 39/338 [00:00<00:03, 90.50it/s]Loading weights:  19%|#8        | 64/338 [00:00<00:02, 130.12it/s]Loading weights:  24%|##4       | 82/338 [00:00<00:01, 143.36it/s]Loading weights:  29%|##9       | 99/338 [00:00<00:01, 143.15it/s]Loading weights:  37%|###6      | 124/338 [00:01<00:01, 164.44it/s]Loading weights:  43%|####3     | 147/338 [00:01<00:01, 175.75it/s]Loading weights:  49%|####9     | 166/338 [00:01<00:00, 173.64it/s]Loading weights:  55%|#####4    | 185/338 [00:01<00:00, 169.93it/s]Loading weights:  62%|######1   | 208/338 [00:01<00:00, 171.65it/s]Loading weights:  69%|######8   | 232/338 [00:01<00:00, 185.11it/s]Loading weights:  75%|#######5  | 255/338 [00:01<00:00, 189.91it/s]Loading weights:  81%|########1 | 275/338 [00:01<00:00, 187.95it/s]Loading weights:  87%|########6 | 294/338 [00:01<00:00, 177.29it/s]Loading weights:  93%|#########3| 316/338 [00:02<00:00, 173.05it/s]Loading weights: 100%|##########| 338/338 [00:02<00:00, 156.17it/s]
-[*] L3: google/gemma-4-E2B + models/gemma4_e2b_qlora/final_adapter
-Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   0%|          | 1/1951 [00:00<10:31,  3.09it/s]Loading weights:   7%|6         | 132/1951 [00:00<00:04, 398.54it/s]Loading weights:  14%|#3        | 267/1951 [00:00<00:02, 683.72it/s]Loading weights:  22%|##1       | 426/1951 [00:00<00:01, 955.63it/s]Loading weights:  29%|##9       | 566/1951 [00:00<00:01, 1086.48it/s]Loading weights:  36%|###6      | 708/1951 [00:00<00:01, 1183.30it/s]Loading weights:  43%|####3     | 842/1951 [00:04<00:10, 109.36it/s] Loading weights:  48%|####7     | 933/1951 [00:04<00:07, 127.42it/s]Loading weights:  51%|#####1    | 1004/1951 [00:04<00:06, 146.05it/s]Loading weights:  54%|#####4    | 1063/1951 [00:05<00:05, 149.76it/s]Loading weights:  57%|#####6    | 1109/1951 [00:05<00:05, 151.74it/s]Loading weights:  59%|#####8    | 1146/1951 [00:05<00:05, 150.03it/s]Loading weights:  60%|######    | 1176/1951 [00:06<00:05, 150.45it/s]Loading weights:  62%|######1   | 1202/1951 [00:06<00:05, 149.46it/s]Loading weights:  63%|######2   | 1225/1951 [00:06<00:05, 140.88it/s]Loading weights:  64%|######3   | 1244/1951 [00:06<00:04, 146.36it/s]Loading weights:  65%|######4   | 1263/1951 [00:06<00:04, 149.60it/s]Loading weights:  66%|######5   | 1281/1951 [00:06<00:04, 137.18it/s]Loading weights:  71%|#######1  | 1388/1951 [00:06<00:01, 309.79it/s]Loading weights:  80%|#######9  | 1553/1951 [00:06<00:00, 588.54it/s]Loading weights:  88%|########7 | 1716/1951 [00:07<00:00, 826.62it/s]Loading weights:  97%|#########7| 1896/1951 [00:07<00:00, 1066.54it/s]Loading weights: 100%|##########| 1951/1951 [00:07<00:00, 268.68it/s] 
-[transformers] The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-[*] cascade eval on 553 samples
-  50/553 done  avg=15560ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 50}
-  100/553 done  avg=16631ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 100}
-  150/553 done  avg=15968ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 150}
-  200/553 done  avg=15644ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 200}
-  250/553 done  avg=15554ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 250}
-  300/553 done  avg=15319ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 300}
-  350/553 done  avg=15886ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 350}
-  400/553 done  avg=15591ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 400}
-  450/553 done  avg=15520ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 450}
-  500/553 done  avg=15657ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 500}
-  550/553 done  avg=15492ms  layers={'L1': 0, 'L1+L2': 0, 'L1+L2+L3': 550}
-
-=== Results [cascade_balanced] ===
-  parse_ok: 100.0%
-  layers: {'L1': 0.0, 'L1+L2': 0.0, 'L1+L2+L3': 100.0}
-  latency avg=15498ms p95=26535ms
-  TRIAJ acc=0.6184 macro-F1=0.3898 FGR=0.0 FNR-Red=0.5294
-  BOLUM acc=0.6365 macro-F1=0.4234
