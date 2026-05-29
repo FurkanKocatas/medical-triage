@@ -375,7 +375,7 @@ for line, sz, col in [("Öğrenilen dersler:", 18, WHITE),
     p = tf2.add_paragraph(); r = p.add_run(); r.text = line; _set(r, sz, col, bold=(sz == 18))
 tf3 = textbox(s, Inches(1.2), SH - Inches(0.9), SW - Inches(2.4), Inches(0.6))
 r = tf3.paragraphs[0].add_run()
-r.text = "Teşekkürler — Ebubekir Bayar & Furkan Kocataş · github.com/<repo>"
+r.text = "Teşekkürler — Ebubekir Bayar & Furkan Kocataş · github.com/FurkanKocatas/medical-triage"
 _set(r, 13, RGBColor(0x9F, 0xB3, 0xC8))
 
 out = ROOT / "sunum.pptx"
