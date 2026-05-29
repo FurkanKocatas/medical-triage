@@ -1,0 +1,14 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "output_dir": "models/qwen25_15b_qlora",
+  "epochs": 2,
+  "batch_size": 4,
+  "grad_accum": 4,
+  "lr": 2e-4,
+  "max_length": 896,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "use_4bit": true,
+  "seed": 42
+}

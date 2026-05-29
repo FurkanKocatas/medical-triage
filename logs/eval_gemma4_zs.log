@@ -1,0 +1,25 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[*] device=cuda dtype=torch.bfloat16
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   7%|▋         | 131/1951 [00:00<00:01, 1298.29it/s]Loading weights:  13%|█▎        | 261/1951 [00:00<00:01, 1198.63it/s]Loading weights:  20%|█▉        | 382/1951 [00:00<00:01, 1026.22it/s]Loading weights:  25%|██▌       | 494/1951 [00:00<00:01, 1053.69it/s]Loading weights:  31%|███       | 602/1951 [00:00<00:01, 1018.89it/s]Loading weights:  37%|███▋      | 728/1951 [00:00<00:01, 1090.23it/s]Loading weights:  43%|████▎     | 839/1951 [00:05<00:16, 66.47it/s]  Loading weights:  47%|████▋     | 914/1951 [00:06<00:13, 78.03it/s]Loading weights:  50%|████▉     | 972/1951 [00:06<00:10, 89.38it/s]Loading weights:  52%|█████▏    | 1018/1951 [00:06<00:09, 96.75it/s]Loading weights:  54%|█████▍    | 1055/1951 [00:07<00:08, 100.01it/s]Loading weights:  56%|█████▌    | 1084/1951 [00:07<00:08, 96.42it/s] Loading weights:  57%|█████▋    | 1107/1951 [00:07<00:08, 102.11it/s]Loading weights:  58%|█████▊    | 1128/1951 [00:07<00:08, 98.49it/s] Loading weights:  59%|█████▊    | 1145/1951 [00:07<00:07, 105.01it/s]Loading weights:  60%|█████▉    | 1162/1951 [00:08<00:07, 107.92it/s]Loading weights:  60%|██████    | 1178/1951 [00:08<00:06, 110.92it/s]Loading weights:  61%|██████    | 1193/1951 [00:08<00:06, 111.91it/s]Loading weights:  62%|██████▏   | 1207/1951 [00:08<00:06, 110.06it/s]Loading weights:  63%|██████▎   | 1220/1951 [00:08<00:06, 108.05it/s]Loading weights:  63%|██████▎   | 1232/1951 [00:08<00:06, 108.89it/s]Loading weights:  64%|██████▍   | 1246/1951 [00:08<00:06, 114.47it/s]Loading weights:  65%|██████▍   | 1259/1951 [00:08<00:05, 116.54it/s]Loading weights:  65%|██████▌   | 1272/1951 [00:09<00:05, 119.75it/s]Loading weights:  66%|██████▌   | 1285/1951 [00:09<00:05, 119.76it/s]Loading weights:  70%|██████▉   | 1362/1951 [00:09<00:01, 295.17it/s]Loading weights:  77%|███████▋  | 1512/1951 [00:09<00:00, 622.24it/s]Loading weights:  85%|████████▌ | 1660/1951 [00:09<00:00, 862.79it/s]Loading weights:  92%|█████████▏| 1799/1951 [00:09<00:00, 1012.49it/s]Loading weights: 100%|██████████| 1951/1951 [00:09<00:00, 1094.09it/s]Loading weights: 100%|██████████| 1951/1951 [00:09<00:00, 201.15it/s] 
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|█▎        | 1/8 [00:00<00:02,  2.46it/s]Fetching 8 files:  62%|██████▎   | 5/8 [06:04<03:52, 77.48s/it]Fetching 8 files: 100%|██████████| 8/8 [06:04<00:00, 45.54s/it]
+[transformers] The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[*] evaluating 553 samples
+  50/553 done (avg latency 3832.2ms)
+  100/553 done (avg latency 3620.8ms)
+  150/553 done (avg latency 3688.2ms)
+  200/553 done (avg latency 3691.1ms)
+  250/553 done (avg latency 3711.5ms)
+  300/553 done (avg latency 3668.6ms)
+  350/553 done (avg latency 3663.5ms)
+  400/553 done (avg latency 3684.3ms)
+  450/553 done (avg latency 3694.1ms)
+  500/553 done (avg latency 3693.3ms)
+  550/553 done (avg latency 3687.2ms)
+
+=== Results [gemma4_zeroshot] ===
+  parse_ok: 56.4%
+  latency: 3684.2ms (p95=4157.8ms)
+  size: 10278.8MB (base model)
+  peak GPU: 10330MB
+  TRIAJ acc=0.1392 macro-F1=0.1175 weighted-F1=0.2035 FGR=0.0 FNR-Red=0.9706
+  BOLUM acc=0.0289 macro-F1=0.0221 weighted-F1=0.0396

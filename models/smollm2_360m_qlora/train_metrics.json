@@ -1,0 +1,22 @@
+{
+  "model_id": "HuggingFaceTB/SmolLM2-360M",
+  "training_time_sec": 3736.8655455112457,
+  "training_time_min": 62.28,
+  "epochs": 3,
+  "train_samples": 3972,
+  "val_samples": 475,
+  "config": {
+    "model_id": "HuggingFaceTB/SmolLM2-360M",
+    "output_dir": "models/smollm2_360m_qlora",
+    "epochs": 3,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "lr": 0.0003,
+    "max_length": 768,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "use_4bit": true,
+    "seed": 42
+  }
+}

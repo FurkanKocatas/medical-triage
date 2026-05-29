@@ -1,0 +1,75 @@
+{
+  "train": {
+    "total": 3972,
+    "triaj": {
+      "Sari": 2599,
+      "Yesil": 1211,
+      "Kirmizi": 162
+    },
+    "source": {
+      "doktorsitesi": 3972
+    },
+    "bolum_top10": {
+      "Kadin Dogum": 1099,
+      "Cocuk Sagligi": 409,
+      "Dahiliye": 400,
+      "Noroloji": 392,
+      "Uroloji": 295,
+      "Ortopedi": 221,
+      "Genel Cerrahi": 202,
+      "Plastik Cerrahi": 118,
+      "KBB": 104,
+      "Kardiyoloji": 97
+    }
+  },
+  "val": {
+    "total": 475,
+    "triaj": {
+      "Sari": 318,
+      "Yesil": 142,
+      "Kirmizi": 15
+    },
+    "source": {
+      "doktorsitesi": 475
+    },
+    "bolum_top10": {
+      "Kadin Dogum": 136,
+      "Cocuk Sagligi": 50,
+      "Dahiliye": 49,
+      "Noroloji": 48,
+      "Uroloji": 36,
+      "Ortopedi": 27,
+      "Genel Cerrahi": 25,
+      "Plastik Cerrahi": 14,
+      "KBB": 12,
+      "Fizik Tedavi": 11
+    }
+  },
+  "test": {
+    "total": 553,
+    "triaj": {
+      "Sari": 345,
+      "Yesil": 174,
+      "Kirmizi": 34
+    },
+    "source": {
+      "doktorsitesi": 553
+    },
+    "bolum_top10": {
+      "Kadin Dogum": 139,
+      "Cocuk Sagligi": 54,
+      "Dahiliye": 52,
+      "Noroloji": 52,
+      "Uroloji": 39,
+      "Ortopedi": 31,
+      "Genel Cerrahi": 27,
+      "Plastik Cerrahi": 16,
+      "KBB": 16,
+      "Psikiyatri": 15
+    }
+  },
+  "instruction": "Asagidaki hasta semptom metnini analiz et. Triaj seviyesini (Yesil/Sari/Kirmizi) ve en uygun tibbi bolumu belirle. Cevabini SADECE gecerli bir JSON objesi olarak ver.",
+  "disclaimer": "Bu sistem sadece bir on yonlendirme aracidir, tibbi tani koymaz. Acil durumlarda 112'yi arayin.",
+  "max_text_chars": 1200,
+  "seed": 42
+}

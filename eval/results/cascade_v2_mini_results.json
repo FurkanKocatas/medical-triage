@@ -1,0 +1,42 @@
+{
+  "tag": "cascade_v2_mini",
+  "models": {
+    "l1": "HuggingFaceTB/SmolLM2-360M",
+    "l2": "Qwen/Qwen2.5-1.5B",
+    "l3": "google/gemma-4-E2B"
+  },
+  "adapters": {
+    "l1": "models/smollm2_360m_qlora/final_adapter",
+    "l2": "models/qwen25_15b_lora_balanced/final_adapter",
+    "l3": "models/gemma4_e2b_qlora_balanced/final_adapter"
+  },
+  "total_samples": 100,
+  "parse_ok_count": 100,
+  "parse_ok_rate": 1.0,
+  "layer_counts": {
+    "L1": 0,
+    "L1+L2": 0,
+    "L1+L2+L3": 100
+  },
+  "layer_pct": {
+    "L1": 0.0,
+    "L1+L2": 0.0,
+    "L1+L2+L3": 100.0
+  },
+  "avg_latency_ms": 11570.61,
+  "p50_latency_ms": 14068.45,
+  "p95_latency_ms": 16520.71,
+  "triaj": {
+    "accuracy": 0.54,
+    "f1_macro": 0.3099,
+    "f1_weighted": 0.4113,
+    "false_green_rate": 0.0,
+    "false_negative_rate_red": 0.8
+  },
+  "bolum": {
+    "accuracy": 0.64,
+    "f1_macro": 0.4614,
+    "f1_weighted": 0.6155
+  },
+  "classification_report_triaj": "              precision    recall  f1-score   support\n\n       Yesil      0.000     0.000     0.000        35\n        Sari      0.565     0.945     0.707        55\n     Kirmizi      0.250     0.200     0.222        10\n\n    accuracy                          0.540       100\n   macro avg      0.272     0.382     0.310       100\nweighted avg      0.336     0.540     0.411       100\n"
+}

@@ -1,0 +1,25 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[*] device=cuda dtype=torch.bfloat16
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:56,  2.89it/s]Loading weights:   5%|▌         | 17/338 [00:00<00:06, 47.74it/s]Loading weights:  12%|█▏        | 39/338 [00:00<00:03, 93.25it/s]Loading weights:  19%|█▊        | 63/338 [00:00<00:02, 128.09it/s]Loading weights:  24%|██▎       | 80/338 [00:00<00:01, 133.47it/s]Loading weights:  30%|██▉       | 100/338 [00:00<00:01, 141.19it/s]Loading weights:  37%|███▋      | 124/338 [00:01<00:01, 160.58it/s]Loading weights:  43%|████▎     | 147/338 [00:01<00:01, 164.06it/s]Loading weights:  49%|████▉     | 165/338 [00:01<00:01, 166.55it/s]Loading weights:  54%|█████▍    | 183/338 [00:01<00:00, 162.91it/s]Loading weights:  60%|██████    | 203/338 [00:01<00:00, 170.77it/s]Loading weights:  65%|██████▌   | 221/338 [00:01<00:00, 160.68it/s]Loading weights:  72%|███████▏  | 243/338 [00:01<00:00, 175.19it/s]Loading weights:  77%|███████▋  | 261/338 [00:01<00:00, 169.61it/s]Loading weights:  83%|████████▎ | 280/338 [00:01<00:00, 167.91it/s]Loading weights:  88%|████████▊ | 299/338 [00:02<00:00, 172.20it/s]Loading weights:  94%|█████████▍| 317/338 [00:02<00:00, 160.20it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 147.33it/s]
+W0425 00:32:33.009000 29520 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[*] adapter loaded + merged: models\qwen25_15b_lora_nobnb\final_adapter
+[*] evaluating 553 samples
+  50/553 done (avg latency 1520.3ms)
+  100/553 done (avg latency 1490.6ms)
+  150/553 done (avg latency 1477.5ms)
+  200/553 done (avg latency 1477.7ms)
+  250/553 done (avg latency 1475.4ms)
+  300/553 done (avg latency 1471.5ms)
+  350/553 done (avg latency 1466.7ms)
+  400/553 done (avg latency 1462.9ms)
+  450/553 done (avg latency 1463.3ms)
+  500/553 done (avg latency 1463.0ms)
+  550/553 done (avg latency 1462.8ms)
+
+=== Results [qwen25_lora_ft] ===
+  parse_ok: 100.0%
+  latency: 1462.7ms (p95=1532.7ms)
+  size: 85.3MB (adapter only)
+  peak GPU: 3279MB
+  TRIAJ acc=0.6239 macro-F1=0.2561 weighted-F1=0.4794 FGR=0.0 FNR-Red=1.0
+  BOLUM acc=0.6275 macro-F1=0.4063 weighted-F1=0.6017

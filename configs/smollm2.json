@@ -1,0 +1,14 @@
+{
+  "model_id": "HuggingFaceTB/SmolLM2-360M",
+  "output_dir": "models/smollm2_360m_qlora",
+  "epochs": 3,
+  "batch_size": 8,
+  "grad_accum": 2,
+  "lr": 3e-4,
+  "max_length": 768,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "use_4bit": true,
+  "seed": 42
+}

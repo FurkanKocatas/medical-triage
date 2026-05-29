@@ -1,0 +1,28 @@
+{
+  "tag": "gemma4_zeroshot",
+  "model_id": "google/gemma-4-E2B",
+  "adapter": null,
+  "size_mb": 10278.8,
+  "size_desc": "base model",
+  "peak_gpu_mem_mb": 10330.0,
+  "load_time_sec": 12.04,
+  "total_samples": 553,
+  "parse_ok_count": 312,
+  "parse_ok_rate": 0.5642,
+  "avg_latency_ms": 3684.25,
+  "p50_latency_ms": 4089.98,
+  "p95_latency_ms": 4157.79,
+  "triaj": {
+    "accuracy": 0.1392,
+    "f1_macro": 0.1175,
+    "f1_weighted": 0.2035,
+    "false_green_rate": 0.0,
+    "false_negative_rate_red": 0.9706
+  },
+  "bolum": {
+    "accuracy": 0.0289,
+    "f1_macro": 0.0221,
+    "f1_weighted": 0.0396
+  },
+  "classification_report_triaj": "              precision    recall  f1-score   support\n\n       Yesil      0.000     0.000     0.000       174\n        Sari      0.608     0.220     0.323       345\n     Kirmizi      0.029     0.029     0.029        34\n\n   micro avg      0.481     0.139     0.216       553\n   macro avg      0.212     0.083     0.117       553\nweighted avg      0.381     0.139     0.204       553\n"
+}

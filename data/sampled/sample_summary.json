@@ -1,0 +1,30 @@
+{
+  "doktorsitesi": {
+    "total": 5000,
+    "bolum_dist": {
+      "Kadin Dogum": 1374,
+      "Cocuk Sagligi": 513,
+      "Dahiliye": 501,
+      "Noroloji": 492,
+      "Uroloji": 370,
+      "Ortopedi": 279,
+      "Genel Cerrahi": 254,
+      "Plastik Cerrahi": 148,
+      "KBB": 132,
+      "Kardiyoloji": 122,
+      "Fizik Tedavi": 122,
+      "Psikiyatri": 116,
+      "Dis Hekimligi": 113,
+      "Dermatoloji": 96,
+      "Psikoloji": 85,
+      "Goz Hastaliklari": 66,
+      "Gogus Hastaliklari": 52,
+      "Beslenme": 44,
+      "Anestezi": 43,
+      "Enfeksiyon": 38,
+      "Radyoloji": 29,
+      "Aile Hekimligi": 6,
+      "Acil Tip": 5
+    }
+  }
+}

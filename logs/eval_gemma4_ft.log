@@ -1,0 +1,26 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[*] device=cuda dtype=torch.bfloat16
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   7%|▋         | 139/1951 [00:00<00:01, 1328.76it/s]Loading weights:  14%|█▍        | 272/1951 [00:00<00:01, 1275.15it/s]Loading weights:  21%|██        | 400/1951 [00:00<00:01, 1166.52it/s]Loading weights:  27%|██▋       | 518/1951 [00:00<00:01, 1126.50it/s]Loading weights:  32%|███▏      | 632/1951 [00:00<00:01, 1113.01it/s]Loading weights:  39%|███▊      | 754/1951 [00:01<00:02, 407.72it/s] Loading weights:  43%|████▎     | 834/1951 [00:04<00:13, 82.15it/s] Loading weights:  46%|████▌     | 889/1951 [00:04<00:11, 94.06it/s]Loading weights:  48%|████▊     | 934/1951 [00:05<00:09, 105.24it/s]Loading weights:  50%|████▉     | 972/1951 [00:05<00:08, 118.68it/s]Loading weights:  52%|█████▏    | 1007/1951 [00:05<00:07, 132.29it/s]Loading weights:  53%|█████▎    | 1039/1951 [00:05<00:06, 135.54it/s]Loading weights:  55%|█████▍    | 1066/1951 [00:05<00:06, 135.46it/s]Loading weights:  56%|█████▌    | 1089/1951 [00:05<00:06, 129.90it/s]Loading weights:  57%|█████▋    | 1109/1951 [00:06<00:06, 135.14it/s]Loading weights:  58%|█████▊    | 1128/1951 [00:06<00:06, 125.12it/s]Loading weights:  59%|█████▊    | 1144/1951 [00:06<00:06, 129.15it/s]Loading weights:  59%|█████▉    | 1160/1951 [00:06<00:06, 131.78it/s]Loading weights:  60%|██████    | 1176/1951 [00:06<00:05, 134.59it/s]Loading weights:  61%|██████    | 1191/1951 [00:06<00:05, 136.28it/s]Loading weights:  62%|██████▏   | 1206/1951 [00:06<00:05, 134.88it/s]Loading weights:  63%|██████▎   | 1221/1951 [00:06<00:05, 134.33it/s]Loading weights:  63%|██████▎   | 1235/1951 [00:07<00:05, 133.47it/s]Loading weights:  64%|██████▍   | 1249/1951 [00:07<00:05, 131.95it/s]Loading weights:  65%|██████▍   | 1263/1951 [00:07<00:05, 132.02it/s]Loading weights:  65%|██████▌   | 1277/1951 [00:07<00:05, 132.23it/s]Loading weights:  66%|██████▌   | 1291/1951 [00:07<00:05, 126.66it/s]Loading weights:  72%|███████▏  | 1406/1951 [00:07<00:01, 405.09it/s]Loading weights:  80%|████████  | 1562/1951 [00:07<00:00, 728.07it/s]Loading weights:  88%|████████▊ | 1710/1951 [00:07<00:00, 937.75it/s]Loading weights:  96%|█████████▌| 1869/1951 [00:07<00:00, 1123.13it/s]Loading weights: 100%|██████████| 1951/1951 [00:07<00:00, 244.94it/s] 
+W0424 23:31:10.794000 17120 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[transformers] The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[*] adapter loaded + merged: models\gemma4_e2b_qlora\final_adapter
+[*] evaluating 553 samples
+  50/553 done (avg latency 2756.2ms)
+  100/553 done (avg latency 2760.5ms)
+  150/553 done (avg latency 2775.4ms)
+  200/553 done (avg latency 2762.2ms)
+  250/553 done (avg latency 2756.3ms)
+  300/553 done (avg latency 2750.1ms)
+  350/553 done (avg latency 2748.0ms)
+  400/553 done (avg latency 2746.1ms)
+  450/553 done (avg latency 2745.1ms)
+  500/553 done (avg latency 2740.3ms)
+  550/553 done (avg latency 2733.5ms)
+
+=== Results [gemma4_ft] ===
+  parse_ok: 100.0%
+  latency: 2733.1ms (p95=2858.9ms)
+  size: 70.3MB (adapter only)
+  peak GPU: 10417MB
+  TRIAJ acc=0.6239 macro-F1=0.2561 weighted-F1=0.4794 FGR=0.0 FNR-Red=1.0
+  BOLUM acc=0.6383 macro-F1=0.4021 weighted-F1=0.6322

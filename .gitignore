@@ -1,0 +1,26 @@
+# --- Python ortamı / sanal ortam ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Hugging Face model önbelleği (base modeller, ~27GB; yeniden indirilebilir) ---
+.hf_cache/
+hf_cache/
+
+# --- Eğitim checkpoint'leri (optimizer state, ~142MB/dosya; final_adapter yeterli) ---
+models/**/checkpoint-*/
+
+# --- Geçici / hassas dosyalar ---
+tmp.bin/
+*.gpg
+*.tmp
+
+# --- İşletim sistemi artıkları ---
+.DS_Store
+Thumbs.db
+desktop.ini

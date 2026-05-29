@@ -1,0 +1,28 @@
+{
+  "tag": "smollm2_ft",
+  "model_id": "HuggingFaceTB/SmolLM2-360M",
+  "adapter": "models\\smollm2_360m_qlora\\final_adapter",
+  "size_mb": 21.0,
+  "size_desc": "adapter only",
+  "peak_gpu_mem_mb": 866.8,
+  "load_time_sec": 2.37,
+  "total_samples": 553,
+  "parse_ok_count": 506,
+  "parse_ok_rate": 0.915,
+  "avg_latency_ms": 1706.09,
+  "p50_latency_ms": 1491.78,
+  "p95_latency_ms": 3061.7,
+  "triaj": {
+    "accuracy": 0.5624,
+    "f1_macro": 0.2436,
+    "f1_weighted": 0.456,
+    "false_green_rate": 0.0,
+    "false_negative_rate_red": 1.0
+  },
+  "bolum": {
+    "accuracy": 0.1031,
+    "f1_macro": 0.0228,
+    "f1_weighted": 0.056
+  },
+  "classification_report_triaj": "              precision    recall  f1-score   support\n\n       Yesil      0.000     0.000     0.000       174\n        Sari      0.615     0.901     0.731       345\n     Kirmizi      0.000     0.000     0.000        34\n\n   micro avg      0.615     0.562     0.587       553\n   macro avg      0.205     0.300     0.244       553\nweighted avg      0.383     0.562     0.456       553\n"
+}

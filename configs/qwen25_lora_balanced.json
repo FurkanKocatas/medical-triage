@@ -1,0 +1,15 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "output_dir": "models/qwen25_15b_lora_balanced",
+  "train_file": "data/labeled/train_balanced.jsonl",
+  "epochs": 2,
+  "batch_size": 2,
+  "grad_accum": 8,
+  "lr": 2e-4,
+  "max_length": 896,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "use_4bit": false,
+  "seed": 42
+}

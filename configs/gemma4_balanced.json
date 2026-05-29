@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-E2B",
+  "output_dir": "models/gemma4_e2b_qlora_balanced",
+  "train_file": "data/labeled/train_balanced.jsonl",
+  "epochs": 1,
+  "batch_size": 1,
+  "grad_accum": 16,
+  "lr": 1e-4,
+  "max_length": 512,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "use_4bit": true,
+  "target_modules": "all-linear",
+  "packing": true,
+  "seed": 42
+}

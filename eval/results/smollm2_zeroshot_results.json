@@ -1,0 +1,28 @@
+{
+  "tag": "smollm2_zeroshot",
+  "model_id": "HuggingFaceTB/SmolLM2-360M",
+  "adapter": null,
+  "size_mb": 727.1,
+  "size_desc": "base model",
+  "peak_gpu_mem_mb": 866.0,
+  "load_time_sec": 1.2,
+  "total_samples": 553,
+  "parse_ok_count": 15,
+  "parse_ok_rate": 0.0271,
+  "avg_latency_ms": 3118.75,
+  "p50_latency_ms": 3084.15,
+  "p95_latency_ms": 3347.03,
+  "triaj": {
+    "accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_weighted": 0.0,
+    "false_green_rate": 0.0,
+    "false_negative_rate_red": 1.0
+  },
+  "bolum": {
+    "accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_weighted": 0.0
+  },
+  "classification_report_triaj": "              precision    recall  f1-score   support\n\n       Yesil      0.000     0.000     0.000     174.0\n        Sari      0.000     0.000     0.000     345.0\n     Kirmizi      0.000     0.000     0.000      34.0\n\n   micro avg      0.000     0.000     0.000     553.0\n   macro avg      0.000     0.000     0.000     553.0\nweighted avg      0.000     0.000     0.000     553.0\n"
+}

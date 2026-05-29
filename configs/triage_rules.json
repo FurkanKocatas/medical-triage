@@ -1,0 +1,2381 @@
+{
+  "label_totals": {
+    "Sari": 418,
+    "Kirmizi": 193,
+    "Yesil": 309
+  },
+  "mapping": {
+    "NORMAL": "Yesil",
+    "ACIL": "Sari",
+    "ACİL": "Sari",
+    "COK ACIL": "Kirmizi",
+    "ÇOK ACİL": "Kirmizi"
+  },
+  "critical_phrases": [
+    "bilinc kayb",
+    "bilinc bulanik",
+    "nefes alam",
+    "nefes daral",
+    "gogus agris",
+    "gogus sikism",
+    "kol uyus",
+    "yuz felc",
+    "konuş bozuk",
+    "konusam",
+    "kan geliyor",
+    "kanama",
+    "kusarak kan",
+    "morar",
+    "siyanoz",
+    "baygin",
+    "bayilma",
+    "konvulz",
+    "havale",
+    "nobet",
+    "sert boyun",
+    "ensede sert",
+    "ani bas agris",
+    "siddetli bas agris",
+    "siddetli karin",
+    "karin akut",
+    "karın akut",
+    "kalp kriz",
+    "felc",
+    "inme",
+    "inmem",
+    "stroke",
+    "112",
+    "acil servis"
+  ],
+  "mild_phrases": [
+    "hafif",
+    "2 gun",
+    "3 gun",
+    "gecti",
+    "arada bir",
+    "ara ara",
+    "muayene",
+    "kontrole",
+    "rutin",
+    "randevu",
+    "kroniğim",
+    "kronik",
+    "yavas yavas"
+  ],
+  "symptom_keywords": {
+    "Kirmizi": [
+      [
+        "ani siddetli bas agrisi",
+        9,
+        46.63
+      ],
+      [
+        "ani gogus agrisi",
+        9,
+        46.63
+      ],
+      [
+        "ani siddetli karin agrisi",
+        8,
+        41.45
+      ],
+      [
+        "ani gorme kaybi",
+        7,
+        36.27
+      ],
+      [
+        "bilinc bulanikligi",
+        6,
+        31.09
+      ],
+      [
+        "ense sertligi",
+        6,
+        31.09
+      ],
+      [
+        "vucutta uyusma",
+        5,
+        25.91
+      ],
+      [
+        "vucutta hissizlik",
+        5,
+        25.91
+      ],
+      [
+        "ani karin agrisi",
+        11,
+        23.99
+      ],
+      [
+        "hematemez",
+        4,
+        20.73
+      ],
+      [
+        "afazi",
+        4,
+        20.73
+      ],
+      [
+        "sok",
+        4,
+        20.73
+      ],
+      [
+        "yuzde uyusma",
+        4,
+        20.73
+      ],
+      [
+        "tek kolda uyusma",
+        4,
+        20.73
+      ],
+      [
+        "ani gorme alani kaybi",
+        4,
+        20.73
+      ],
+      [
+        "siyah diski (melena)",
+        3,
+        15.54
+      ],
+      [
+        "yuzde asimetri",
+        3,
+        15.54
+      ],
+      [
+        "ani yaygin kas gucsuzlugu",
+        3,
+        15.54
+      ],
+      [
+        "tek bacakta uyusma",
+        3,
+        15.54
+      ],
+      [
+        "isik cakmalari",
+        10,
+        13.81
+      ],
+      [
+        "gorme azalmasi",
+        8,
+        11.05
+      ],
+      [
+        "dizartri",
+        4,
+        8.72
+      ],
+      [
+        "siddetli karin agrisi",
+        6,
+        8.29
+      ],
+      [
+        "sinek ucusmalari",
+        7,
+        7.07
+      ],
+      [
+        "gorme alaninda leke",
+        7,
+        7.07
+      ],
+      [
+        "bilinc degisikligi",
+        3,
+        6.54
+      ],
+      [
+        "bacaklarda gucsuzluk",
+        3,
+        6.54
+      ],
+      [
+        "idrar inkontinansi",
+        3,
+        6.54
+      ],
+      [
+        "konusma guclugu",
+        10,
+        5.6
+      ],
+      [
+        "bacakta sislik",
+        4,
+        5.53
+      ],
+      [
+        "bilinc kaybi",
+        4,
+        5.53
+      ],
+      [
+        "tek tarafli zonklayici bas agrisi",
+        4,
+        5.53
+      ],
+      [
+        "siddetli bas agrisi",
+        6,
+        4.78
+      ],
+      [
+        "konusma bozuklugu",
+        3,
+        4.14
+      ],
+      [
+        "kafa travmasi",
+        3,
+        4.14
+      ],
+      [
+        "kolda gucsuzluk",
+        3,
+        4.14
+      ],
+      [
+        "terleme",
+        4,
+        4.04
+      ],
+      [
+        "nefes darligi",
+        30,
+        3.93
+      ],
+      [
+        "yuksek ates",
+        9,
+        3.49
+      ],
+      [
+        "kusma",
+        17,
+        3.42
+      ],
+      [
+        "gogus agrisi",
+        4,
+        3.19
+      ],
+      [
+        "diskida kan",
+        4,
+        3.19
+      ],
+      [
+        "ani yuksek ates",
+        3,
+        3.03
+      ],
+      [
+        "sirt agrisi",
+        5,
+        2.8
+      ],
+      [
+        "gogus sikismasi",
+        5,
+        2.44
+      ],
+      [
+        "gorme bulanikligi",
+        5,
+        2.44
+      ],
+      [
+        "titreme",
+        7,
+        2.07
+      ],
+      [
+        "bulanti",
+        5,
+        1.94
+      ],
+      [
+        "mide bulantisi",
+        3,
+        1.68
+      ],
+      [
+        "fotofobi",
+        5,
+        1.61
+      ],
+      [
+        "goz agrisi",
+        4,
+        1.4
+      ],
+      [
+        "ates",
+        10,
+        1.03
+      ],
+      [
+        "oksuruk",
+        3,
+        0.96
+      ],
+      [
+        "disfaji",
+        3,
+        0.82
+      ],
+      [
+        "agri",
+        3,
+        0.77
+      ]
+    ],
+    "Sari": [
+      [
+        "eklem sisligi",
+        10,
+        23.92
+      ],
+      [
+        "siddetli agri",
+        8,
+        19.14
+      ],
+      [
+        "yurume guclugu",
+        8,
+        19.14
+      ],
+      [
+        "sislik",
+        7,
+        16.75
+      ],
+      [
+        "buyume",
+        5,
+        11.96
+      ],
+      [
+        "plevral agri",
+        5,
+        11.96
+      ],
+      [
+        "agirlik tasiyamama",
+        5,
+        11.96
+      ],
+      [
+        "eklem agrisi",
+        12,
+        9.59
+      ],
+      [
+        "dis agrisi",
+        4,
+        9.57
+      ],
+      [
+        "kasikta sislik",
+        4,
+        9.57
+      ],
+      [
+        "cilt lekeleri",
+        4,
+        9.57
+      ],
+      [
+        "solunumda agri",
+        4,
+        9.57
+      ],
+      [
+        "dizde ani agri",
+        4,
+        9.57
+      ],
+      [
+        "kilo kaybi",
+        16,
+        7.68
+      ],
+      [
+        "hiriltili solunum",
+        9,
+        7.2
+      ],
+      [
+        "bocek sokmasi",
+        3,
+        7.18
+      ],
+      [
+        "kalp carpintisi",
+        3,
+        7.18
+      ],
+      [
+        "panik atak",
+        3,
+        7.18
+      ],
+      [
+        "burun kanamasi",
+        3,
+        7.18
+      ],
+      [
+        "siddetli bas donmesi",
+        3,
+        7.18
+      ],
+      [
+        "bacakta uyusma",
+        3,
+        7.18
+      ],
+      [
+        "ayak basparmagi agrisi",
+        3,
+        7.18
+      ],
+      [
+        "yutkunma guclugu (disfaji)",
+        3,
+        7.18
+      ],
+      [
+        "yaygin morluklar",
+        3,
+        7.18
+      ],
+      [
+        "yurume bozuklugu",
+        3,
+        7.18
+      ],
+      [
+        "tek gozde agri",
+        3,
+        7.18
+      ],
+      [
+        "tek gozde kizariklik",
+        3,
+        7.18
+      ],
+      [
+        "elde dokuntu",
+        3,
+        7.18
+      ],
+      [
+        "ayakta dokuntu",
+        3,
+        7.18
+      ],
+      [
+        "parmaklarda siyanoz",
+        3,
+        7.18
+      ],
+      [
+        "carpinti",
+        7,
+        5.6
+      ],
+      [
+        "denge kaybi",
+        9,
+        4.32
+      ],
+      [
+        "tasikardi",
+        5,
+        4.0
+      ],
+      [
+        "dizde sislik",
+        5,
+        4.0
+      ],
+      [
+        "kas gucsuzlugu",
+        8,
+        3.84
+      ],
+      [
+        "bulanik gorme",
+        11,
+        3.77
+      ],
+      [
+        "karin agrisi",
+        13,
+        3.47
+      ],
+      [
+        "ishal",
+        7,
+        3.36
+      ],
+      [
+        "yaygin kasinti",
+        7,
+        3.36
+      ],
+      [
+        "ates",
+        34,
+        3.27
+      ],
+      [
+        "yuzde sislik",
+        4,
+        3.2
+      ],
+      [
+        "bas donmesi",
+        6,
+        2.88
+      ],
+      [
+        "fotofobi",
+        11,
+        2.4
+      ],
+      [
+        "bogaz agrisi",
+        9,
+        2.4
+      ],
+      [
+        "tremor",
+        5,
+        2.4
+      ],
+      [
+        "kasik agrisi",
+        5,
+        2.4
+      ],
+      [
+        "gebelik",
+        3,
+        2.4
+      ],
+      [
+        "yutma guclugu",
+        3,
+        2.4
+      ],
+      [
+        "epistaksis",
+        3,
+        2.4
+      ],
+      [
+        "vertigo",
+        3,
+        2.4
+      ],
+      [
+        "boyunda sislik",
+        3,
+        2.4
+      ],
+      [
+        "kronik ishal",
+        3,
+        2.4
+      ],
+      [
+        "gece oksurugu",
+        3,
+        2.4
+      ],
+      [
+        "ciltte kizariklik",
+        3,
+        2.4
+      ],
+      [
+        "atessiz",
+        3,
+        2.4
+      ],
+      [
+        "istahsizlik",
+        10,
+        2.18
+      ],
+      [
+        "agri",
+        11,
+        2.03
+      ],
+      [
+        "isitme kaybi",
+        4,
+        1.92
+      ],
+      [
+        "gozde kizariklik",
+        7,
+        1.87
+      ],
+      [
+        "hareket kisitliligi",
+        10,
+        1.85
+      ],
+      [
+        "bacaklarda uyusma",
+        5,
+        1.71
+      ],
+      [
+        "goz sulanmasi",
+        5,
+        1.71
+      ],
+      [
+        "kizariklik",
+        6,
+        1.6
+      ],
+      [
+        "titreme",
+        11,
+        1.55
+      ],
+      [
+        "gogus sikismasi",
+        7,
+        1.53
+      ],
+      [
+        "goz agrisi",
+        8,
+        1.48
+      ],
+      [
+        "oksuruk",
+        8,
+        1.48
+      ],
+      [
+        "yaygin kizariklik",
+        3,
+        1.44
+      ],
+      [
+        "kulak cinlamasi",
+        3,
+        1.44
+      ],
+      [
+        "agizda yara",
+        3,
+        1.44
+      ],
+      [
+        "mide bulantisi",
+        5,
+        1.33
+      ],
+      [
+        "bas agrisi",
+        5,
+        1.33
+      ],
+      [
+        "kusma",
+        18,
+        1.24
+      ],
+      [
+        "yuksek ates",
+        9,
+        1.14
+      ],
+      [
+        "bulanti",
+        7,
+        1.12
+      ],
+      [
+        "gorme bulanikligi",
+        6,
+        1.11
+      ],
+      [
+        "karincalanma",
+        6,
+        1.11
+      ],
+      [
+        "gozde batma",
+        5,
+        1.09
+      ],
+      [
+        "gogus agrisi",
+        4,
+        1.07
+      ],
+      [
+        "diskida kan",
+        4,
+        1.07
+      ]
+    ],
+    "Yesil": [
+      [
+        "uyku bozuklugu",
+        7,
+        22.65
+      ],
+      [
+        "mide yanmasi",
+        6,
+        19.42
+      ],
+      [
+        "agizda yanma",
+        6,
+        19.42
+      ],
+      [
+        "sac dokulmesi",
+        4,
+        12.94
+      ],
+      [
+        "raynaud fenomeni",
+        4,
+        12.94
+      ],
+      [
+        "periferik noropati",
+        4,
+        12.94
+      ],
+      [
+        "bogazda yanma",
+        4,
+        12.94
+      ],
+      [
+        "kilo alimi",
+        4,
+        12.94
+      ],
+      [
+        "agiz kokusu",
+        4,
+        12.94
+      ],
+      [
+        "insomnia",
+        3,
+        9.71
+      ],
+      [
+        "hiperhidroz",
+        3,
+        9.71
+      ],
+      [
+        "yorgunluk",
+        3,
+        9.71
+      ],
+      [
+        "reflu",
+        3,
+        9.71
+      ],
+      [
+        "parestezi",
+        3,
+        9.71
+      ],
+      [
+        "regurjitasyon",
+        3,
+        9.71
+      ],
+      [
+        "tirnakta sararma",
+        3,
+        9.71
+      ],
+      [
+        "dis eti kanamasi",
+        3,
+        9.71
+      ],
+      [
+        "mesane baskisi",
+        3,
+        9.71
+      ],
+      [
+        "tat alma bozuklugu",
+        3,
+        9.71
+      ],
+      [
+        "dilde yanma",
+        3,
+        9.71
+      ],
+      [
+        "agiz kurulugu",
+        7,
+        8.59
+      ],
+      [
+        "kasintili dokuntu",
+        6,
+        7.36
+      ],
+      [
+        "ses kisikligi",
+        9,
+        6.82
+      ],
+      [
+        "unutkanlik",
+        5,
+        6.14
+      ],
+      [
+        "gozde kasinti",
+        5,
+        6.14
+      ],
+      [
+        "uykusuzluk",
+        8,
+        6.06
+      ],
+      [
+        "gaz",
+        8,
+        6.06
+      ],
+      [
+        "kronik yorgunluk",
+        14,
+        6.0
+      ],
+      [
+        "sabah tutuklugu",
+        4,
+        4.91
+      ],
+      [
+        "konsantrasyon guclugu",
+        4,
+        4.91
+      ],
+      [
+        "kronik halsizlik",
+        4,
+        4.91
+      ],
+      [
+        "boyun agrisi",
+        6,
+        4.54
+      ],
+      [
+        "odem",
+        3,
+        3.68
+      ],
+      [
+        "gece terlemesi",
+        3,
+        3.68
+      ],
+      [
+        "kabizlik",
+        3,
+        3.68
+      ],
+      [
+        "gozde capaklanma",
+        3,
+        3.68
+      ],
+      [
+        "asiri uyku hali",
+        3,
+        3.68
+      ],
+      [
+        "idrar kacirma",
+        3,
+        3.68
+      ],
+      [
+        "ayaklarda uyusma",
+        3,
+        3.68
+      ],
+      [
+        "siskinlik",
+        3,
+        3.68
+      ],
+      [
+        "gozde yanma",
+        3,
+        3.68
+      ],
+      [
+        "kasinti",
+        16,
+        3.29
+      ],
+      [
+        "sik idrara cikma",
+        4,
+        3.03
+      ],
+      [
+        "diz agrisi",
+        3,
+        2.27
+      ],
+      [
+        "burun tikanikligi",
+        3,
+        2.27
+      ],
+      [
+        "burun akintisi",
+        3,
+        2.27
+      ],
+      [
+        "dizuri",
+        4,
+        2.19
+      ],
+      [
+        "kronik oksuruk",
+        7,
+        2.09
+      ],
+      [
+        "karincalanma",
+        6,
+        1.79
+      ],
+      [
+        "halsizlik",
+        5,
+        1.76
+      ],
+      [
+        "gozde batma",
+        5,
+        1.76
+      ],
+      [
+        "goz kizarikligi",
+        4,
+        1.72
+      ],
+      [
+        "usume",
+        4,
+        1.72
+      ],
+      [
+        "balgam",
+        3,
+        1.64
+      ],
+      [
+        "omuz agrisi",
+        3,
+        1.64
+      ],
+      [
+        "yutkunma guclugu",
+        3,
+        1.64
+      ],
+      [
+        "bacaklarda karincalanma",
+        3,
+        1.64
+      ],
+      [
+        "boyun sertligi",
+        3,
+        1.64
+      ],
+      [
+        "disfaji",
+        7,
+        1.44
+      ],
+      [
+        "bas agrisi",
+        4,
+        1.41
+      ],
+      [
+        "hareket kisitliligi",
+        6,
+        1.12
+      ],
+      [
+        "goz sulanmasi",
+        3,
+        1.06
+      ],
+      [
+        "gozde kizariklik",
+        4,
+        1.04
+      ],
+      [
+        "bogaz agrisi",
+        4,
+        0.82
+      ],
+      [
+        "kizariklik",
+        3,
+        0.78
+      ],
+      [
+        "sirt agrisi",
+        3,
+        0.69
+      ],
+      [
+        "istahsizlik",
+        4,
+        0.68
+      ],
+      [
+        "konusma guclugu",
+        4,
+        0.63
+      ],
+      [
+        "oksuruk",
+        3,
+        0.51
+      ],
+      [
+        "agri",
+        3,
+        0.41
+      ],
+      [
+        "karin agrisi",
+        3,
+        0.41
+      ]
+    ]
+  },
+  "text_keywords": {
+    "Kirmizi": [
+      [
+        "baslayan",
+        49,
+        32.23
+      ],
+      [
+        "hissizlik",
+        6,
+        31.09
+      ],
+      [
+        "karardi",
+        5,
+        25.91
+      ],
+      [
+        "ense",
+        5,
+        25.91
+      ],
+      [
+        "sertligi",
+        5,
+        25.91
+      ],
+      [
+        "alanim",
+        5,
+        25.91
+      ],
+      [
+        "gogus",
+        11,
+        23.99
+      ],
+      [
+        "almakta",
+        14,
+        19.34
+      ],
+      [
+        "aniden",
+        22,
+        17.53
+      ],
+      [
+        "oldu",
+        10,
+        13.81
+      ],
+      [
+        "cakmalari",
+        10,
+        13.81
+      ],
+      [
+        "ucusmalar",
+        6,
+        13.09
+      ],
+      [
+        "gormemde",
+        9,
+        12.43
+      ],
+      [
+        "tarafinda",
+        6,
+        8.29
+      ],
+      [
+        "birlikte",
+        8,
+        8.09
+      ],
+      [
+        "konusmakta",
+        10,
+        7.97
+      ],
+      [
+        "kusma",
+        12,
+        7.89
+      ],
+      [
+        "bulanti",
+        5,
+        6.91
+      ],
+      [
+        "gorme",
+        20,
+        6.42
+      ],
+      [
+        "isik",
+        12,
+        5.85
+      ],
+      [
+        "darligim",
+        7,
+        5.58
+      ],
+      [
+        "agrisi",
+        53,
+        5.44
+      ],
+      [
+        "azalma",
+        8,
+        5.26
+      ],
+      [
+        "siddetli",
+        61,
+        5.02
+      ],
+      [
+        "kolumda",
+        14,
+        4.92
+      ],
+      [
+        "gucsuzluk",
+        12,
+        4.65
+      ],
+      [
+        "leke",
+        7,
+        3.92
+      ],
+      [
+        "kaybi",
+        9,
+        3.49
+      ],
+      [
+        "bacagimda",
+        8,
+        3.45
+      ],
+      [
+        "yayiliyor",
+        7,
+        3.41
+      ],
+      [
+        "karin",
+        25,
+        3.4
+      ],
+      [
+        "basladi",
+        15,
+        3.38
+      ],
+      [
+        "eslik",
+        13,
+        3.33
+      ],
+      [
+        "sikisma",
+        5,
+        3.29
+      ],
+      [
+        "yuksek",
+        11,
+        3.02
+      ],
+      [
+        "gozumde",
+        29,
+        2.9
+      ],
+      [
+        "kusuyorum",
+        8,
+        2.81
+      ],
+      [
+        "daha",
+        5,
+        2.8
+      ],
+      [
+        "nefes",
+        30,
+        2.77
+      ],
+      [
+        "goruyorum",
+        14,
+        2.67
+      ],
+      [
+        "ediyor",
+        12,
+        2.55
+      ],
+      [
+        "yaygin",
+        5,
+        2.44
+      ],
+      [
+        "gogsumde",
+        12,
+        2.29
+      ],
+      [
+        "darligi",
+        7,
+        2.25
+      ],
+      [
+        "yuzumde",
+        8,
+        2.2
+      ],
+      [
+        "bulanik",
+        5,
+        2.16
+      ],
+      [
+        "zorlaniyorum",
+        29,
+        1.71
+      ],
+      [
+        "ates",
+        12,
+        1.69
+      ],
+      [
+        "titreme",
+        7,
+        1.68
+      ],
+      [
+        "gibi",
+        9,
+        1.64
+      ],
+      [
+        "uyusma",
+        10,
+        1.52
+      ],
+      [
+        "atesim",
+        8,
+        1.45
+      ],
+      [
+        "vucudumda",
+        15,
+        1.39
+      ],
+      [
+        "geliyor",
+        8,
+        1.27
+      ],
+      [
+        "agri",
+        32,
+        1.06
+      ],
+      [
+        "hastasiyim",
+        6,
+        1.04
+      ],
+      [
+        "bacaklarimda",
+        6,
+        1.04
+      ],
+      [
+        "agrim",
+        7,
+        1.02
+      ],
+      [
+        "cikti",
+        5,
+        0.79
+      ],
+      [
+        "kizariklik",
+        7,
+        0.72
+      ],
+      [
+        "hissediyorum",
+        17,
+        0.51
+      ],
+      [
+        "sislik",
+        9,
+        0.5
+      ],
+      [
+        "ozellikle",
+        8,
+        0.5
+      ],
+      [
+        "agriyor",
+        5,
+        0.5
+      ]
+    ],
+    "Sari": [
+      [
+        "eklemlerimde",
+        9,
+        21.53
+      ],
+      [
+        "alirken",
+        7,
+        16.75
+      ],
+      [
+        "buyuyor",
+        6,
+        14.35
+      ],
+      [
+        "bulantisi",
+        6,
+        14.35
+      ],
+      [
+        "hizli",
+        6,
+        14.35
+      ],
+      [
+        "uzerine",
+        6,
+        14.35
+      ],
+      [
+        "basamiyorum",
+        6,
+        14.35
+      ],
+      [
+        "morluklar",
+        5,
+        11.96
+      ],
+      [
+        "koyu",
+        5,
+        11.96
+      ],
+      [
+        "kanamam",
+        5,
+        11.96
+      ],
+      [
+        "buyuyen",
+        5,
+        11.96
+      ],
+      [
+        "sisti",
+        22,
+        7.54
+      ],
+      [
+        "yeni",
+        9,
+        7.2
+      ],
+      [
+        "bogaz",
+        9,
+        7.2
+      ],
+      [
+        "verdim",
+        8,
+        6.4
+      ],
+      [
+        "agrilari",
+        10,
+        4.8
+      ],
+      [
+        "basim",
+        10,
+        4.8
+      ],
+      [
+        "kaybettim",
+        6,
+        4.8
+      ],
+      [
+        "hirilti",
+        6,
+        4.8
+      ],
+      [
+        "yanik",
+        5,
+        4.0
+      ],
+      [
+        "renkli",
+        5,
+        4.0
+      ],
+      [
+        "olusuyor",
+        5,
+        4.0
+      ],
+      [
+        "kafamda",
+        5,
+        4.0
+      ],
+      [
+        "ettirmekte",
+        5,
+        4.0
+      ],
+      [
+        "gormem",
+        5,
+        4.0
+      ],
+      [
+        "bulaniklasti",
+        5,
+        4.0
+      ],
+      [
+        "solunumumda",
+        5,
+        4.0
+      ],
+      [
+        "zorlanma",
+        5,
+        4.0
+      ],
+      [
+        "geciriyorum",
+        8,
+        3.84
+      ],
+      [
+        "donuyor",
+        8,
+        3.84
+      ],
+      [
+        "olusan",
+        8,
+        3.84
+      ],
+      [
+        "kilo",
+        20,
+        3.69
+      ],
+      [
+        "hareket",
+        13,
+        3.47
+      ],
+      [
+        "cikiyor",
+        7,
+        3.36
+      ],
+      [
+        "denge",
+        7,
+        3.36
+      ],
+      [
+        "alamiyorum",
+        6,
+        2.88
+      ],
+      [
+        "bakamiyorum",
+        6,
+        2.88
+      ],
+      [
+        "oksuruyorum",
+        6,
+        2.88
+      ],
+      [
+        "oluyorum",
+        6,
+        2.88
+      ],
+      [
+        "gordum",
+        6,
+        2.88
+      ],
+      [
+        "isiga",
+        8,
+        2.74
+      ],
+      [
+        "ishal",
+        7,
+        2.4
+      ],
+      [
+        "agrili",
+        7,
+        2.4
+      ],
+      [
+        "cikaramiyorum",
+        5,
+        2.4
+      ],
+      [
+        "dokundugumda",
+        5,
+        2.4
+      ],
+      [
+        "sulanma",
+        5,
+        2.4
+      ],
+      [
+        "vucudumda",
+        36,
+        2.22
+      ],
+      [
+        "oksuruk",
+        12,
+        2.22
+      ],
+      [
+        "kaybediyorum",
+        6,
+        2.06
+      ],
+      [
+        "gundur",
+        6,
+        2.06
+      ],
+      [
+        "ayakta",
+        6,
+        2.06
+      ],
+      [
+        "dizimde",
+        6,
+        2.06
+      ],
+      [
+        "sislik",
+        48,
+        2.02
+      ],
+      [
+        "ates",
+        24,
+        1.99
+      ],
+      [
+        "cekiyorum",
+        10,
+        1.85
+      ],
+      [
+        "atesim",
+        17,
+        1.78
+      ],
+      [
+        "diskimda",
+        8,
+        1.75
+      ],
+      [
+        "derece",
+        5,
+        1.71
+      ],
+      [
+        "rengi",
+        5,
+        1.71
+      ],
+      [
+        "bolgemde",
+        5,
+        1.71
+      ],
+      [
+        "kizariklik",
+        25,
+        1.62
+      ],
+      [
+        "dokuntuler",
+        6,
+        1.6
+      ],
+      [
+        "oluyor",
+        20,
+        1.55
+      ],
+      [
+        "cikti",
+        16,
+        1.54
+      ],
+      [
+        "donmesi",
+        7,
+        1.53
+      ],
+      [
+        "yururken",
+        7,
+        1.53
+      ],
+      [
+        "batma",
+        7,
+        1.53
+      ],
+      [
+        "lekeler",
+        13,
+        1.49
+      ],
+      [
+        "agriyor",
+        23,
+        1.42
+      ],
+      [
+        "kusuyorum",
+        10,
+        1.41
+      ],
+      [
+        "burun",
+        10,
+        1.41
+      ],
+      [
+        "nefes",
+        38,
+        1.4
+      ],
+      [
+        "yuksek",
+        13,
+        1.36
+      ],
+      [
+        "balgam",
+        5,
+        1.33
+      ],
+      [
+        "azaldi",
+        5,
+        1.33
+      ],
+      [
+        "ayrica",
+        5,
+        1.33
+      ],
+      [
+        "kasik",
+        5,
+        1.33
+      ],
+      [
+        "agri",
+        74,
+        1.24
+      ],
+      [
+        "gibi",
+        15,
+        1.24
+      ],
+      [
+        "agrim",
+        16,
+        1.16
+      ]
+    ],
+    "Yesil": [
+      [
+        "agiz",
+        9,
+        29.13
+      ],
+      [
+        "uyuyamiyorum",
+        7,
+        22.65
+      ],
+      [
+        "kurulugu",
+        7,
+        22.65
+      ],
+      [
+        "uyandigimda",
+        6,
+        19.42
+      ],
+      [
+        "saclarim",
+        5,
+        16.18
+      ],
+      [
+        "hafif",
+        11,
+        13.5
+      ],
+      [
+        "sabahlari",
+        13,
+        9.85
+      ],
+      [
+        "yorgunluk",
+        12,
+        9.09
+      ],
+      [
+        "kisildi",
+        7,
+        8.59
+      ],
+      [
+        "gece",
+        6,
+        7.36
+      ],
+      [
+        "tirnaklarimda",
+        6,
+        7.36
+      ],
+      [
+        "yemekte",
+        5,
+        6.14
+      ],
+      [
+        "uyku",
+        8,
+        6.06
+      ],
+      [
+        "siskinlik",
+        8,
+        6.06
+      ],
+      [
+        "agzimda",
+        11,
+        6.02
+      ],
+      [
+        "sesim",
+        9,
+        4.93
+      ],
+      [
+        "ayaklarimda",
+        13,
+        4.58
+      ],
+      [
+        "yorgun",
+        6,
+        4.54
+      ],
+      [
+        "yemek",
+        14,
+        4.19
+      ],
+      [
+        "surekli",
+        76,
+        4.1
+      ],
+      [
+        "yanma",
+        19,
+        3.91
+      ],
+      [
+        "yedikten",
+        7,
+        3.83
+      ],
+      [
+        "ellerimde",
+        7,
+        3.83
+      ],
+      [
+        "sonra",
+        14,
+        3.64
+      ],
+      [
+        "hissi",
+        24,
+        3.25
+      ],
+      [
+        "kasintili",
+        18,
+        3.07
+      ],
+      [
+        "halsizlik",
+        7,
+        3.0
+      ],
+      [
+        "haftadir",
+        11,
+        2.86
+      ],
+      [
+        "geceleri",
+        15,
+        2.8
+      ],
+      [
+        "idrar",
+        10,
+        2.6
+      ],
+      [
+        "artti",
+        10,
+        2.6
+      ],
+      [
+        "yaparken",
+        11,
+        2.53
+      ],
+      [
+        "kasinti",
+        13,
+        2.42
+      ],
+      [
+        "karincalanma",
+        15,
+        2.35
+      ],
+      [
+        "bogazimda",
+        9,
+        2.34
+      ],
+      [
+        "artiyor",
+        22,
+        2.22
+      ],
+      [
+        "gozlerim",
+        5,
+        2.14
+      ],
+      [
+        "ozellikle",
+        35,
+        2.12
+      ],
+      [
+        "tuvalete",
+        6,
+        2.11
+      ],
+      [
+        "kotu",
+        7,
+        2.09
+      ],
+      [
+        "ayak",
+        10,
+        2.06
+      ],
+      [
+        "cildimde",
+        18,
+        2.02
+      ],
+      [
+        "kirmizi",
+        11,
+        1.87
+      ],
+      [
+        "karnimda",
+        10,
+        1.86
+      ],
+      [
+        "bacaklarimda",
+        13,
+        1.76
+      ],
+      [
+        "boynumda",
+        5,
+        1.76
+      ],
+      [
+        "drar",
+        5,
+        1.76
+      ],
+      [
+        "mide",
+        6,
+        1.56
+      ],
+      [
+        "istahim",
+        5,
+        1.5
+      ],
+      [
+        "sertlik",
+        5,
+        1.5
+      ],
+      [
+        "bazen",
+        5,
+        1.3
+      ],
+      [
+        "batma",
+        5,
+        1.3
+      ],
+      [
+        "oluyor",
+        14,
+        1.28
+      ],
+      [
+        "hissediyorum",
+        55,
+        1.26
+      ],
+      [
+        "lekeler",
+        9,
+        1.22
+      ],
+      [
+        "burun",
+        7,
+        1.19
+      ],
+      [
+        "hastasiyim",
+        10,
+        1.12
+      ],
+      [
+        "olustu",
+        9,
+        1.07
+      ],
+      [
+        "agriyor",
+        14,
+        0.97
+      ],
+      [
+        "yutkunmakta",
+        5,
+        0.93
+      ],
+      [
+        "cekiyorum",
+        5,
+        0.85
+      ],
+      [
+        "zorlaniyorum",
+        27,
+        0.81
+      ],
+      [
+        "uyusma",
+        10,
+        0.8
+      ],
+      [
+        "agrim",
+        9,
+        0.75
+      ],
+      [
+        "oksuruk",
+        5,
+        0.73
+      ],
+      [
+        "agri",
+        39,
+        0.72
+      ],
+      [
+        "kizariklik",
+        11,
+        0.67
+      ],
+      [
+        "geliyor",
+        8,
+        0.67
+      ],
+      [
+        "sislik",
+        19,
+        0.65
+      ],
+      [
+        "cikti",
+        7,
+        0.64
+      ],
+      [
+        "ediyor",
+        6,
+        0.5
+      ],
+      [
+        "eslik",
+        5,
+        0.44
+      ],
+      [
+        "gibi",
+        5,
+        0.4
+      ],
+      [
+        "gozumde",
+        11,
+        0.39
+      ],
+      [
+        "karin",
+        5,
+        0.21
+      ],
+      [
+        "agrisi",
+        6,
+        0.14
+      ]
+    ]
+  },
+  "examples": {
+    "Sari": [
+      {
+        "text": "Nefes alamıyorum göğsümde çok şiddetli ağrı var terliyorum baygınlık geliyor",
+        "symptoms": [
+          "nefes darlığı",
+          "göğüs ağrısı",
+          "terleme",
+          "baygınlık hissi"
+        ],
+        "reasoning": "Göğüs ağrısı, nefes darlığı ve terleme birlikteliği kalp krizi işareti"
+      },
+      {
+        "text": "Ani göz ağrısı başladı ışığa bakamıyorum bulantım var görme bulanık",
+        "symptoms": [
+          "göz ağrısı",
+          "ışık hassasiyeti",
+          "bulantı",
+          "bulanık görme"
+        ],
+        "reasoning": "Ani göz ağrısı ve ışık hassasiyeti akut glokom işareti"
+      },
+      {
+        "text": "Hamile 7 aydım kanama başladı karın ağrıları var kasılmalar oluyor",
+        "symptoms": [
+          "gebelik",
+          "kanama",
+          "karın ağrısı",
+          "kasılma"
+        ],
+        "reasoning": "Gebelikte kanama ve kasılma obstetrik acil durumu"
+      },
+      {
+        "text": "Yüzümün sol tarafı uyuştu konuşamıyorum kolum kaldıramıyorum",
+        "symptoms": [
+          "yüz uyuşması",
+          "konuşma güçlüğü",
+          "kol güçsüzlüğü"
+        ],
+        "reasoning": "Yüz felci ve konuşma güçlüğü akut inme belirtileri"
+      },
+      {
+        "text": "Kaza geçirdim kafamı çarptım kusuyorum bilinç gidip geliyor",
+        "symptoms": [
+          "kafa travması",
+          "kusma",
+          "bilinç değişikliği"
+        ],
+        "reasoning": "Kafa travması sonrası kusma ve bilinç değişikliği tehlikeli"
+      },
+      {
+        "text": "Göğsümde bıçak saplanmış gibi ağrı var soluma güçlük çekiyorum",
+        "symptoms": [
+          "göğüs ağrısı",
+          "nefes darlığı",
+          "şiddetli ağrı"
+        ],
+        "reasoning": "Şiddetli göğüs ağrısı ve nefes darlığı kalp krizi belirtisi"
+      }
+    ],
+    "Kirmizi": [
+      {
+        "text": "2 gündür ishal kusma var çok susadım ayakta duramıyorum",
+        "symptoms": [
+          "ishal",
+          "kusma",
+          "dehidratasyon",
+          "güçsüzlük"
+        ],
+        "reasoning": "Uzun süreli ishal-kusma dehidratasyona yol açar"
+      },
+      {
+        "text": "Ateşim 39 derece öksürük var nefes almakta zorlanıyorum",
+        "symptoms": [
+          "yüksek ateş",
+          "öksürük",
+          "nefes darlığı"
+        ],
+        "reasoning": "Yüksek ateş ve nefes darlığı pnömoni işareti"
+      },
+      {
+        "text": "Şiddetli baş ağrısı boynum sert ışığa bakamıyorum ateşim var",
+        "symptoms": [
+          "şiddetli baş ağrısı",
+          "boyun sertliği",
+          "ışık hassasiyeti",
+          "ateş"
+        ],
+        "reasoning": "Baş ağrısı, boyun sertliği ve ışık hassasiyeti menenjit triyadı"
+      },
+      {
+        "text": "Diabetim var şeker 400 çıktı çok susuyorum sık idrara çıkıyorum",
+        "symptoms": [
+          "diyabet",
+          "hiperglisemi",
+          "susuzluk",
+          "poliüri"
+        ],
+        "reasoning": "Yüksek şeker ve klasik belirtiler ketoasidoz işareti"
+      },
+      {
+        "text": "Gözümde ani görme kaybı oldu hiçbir şey göremiyorum ağrı yok",
+        "symptoms": [
+          "ani görme kaybı",
+          "körlük"
+        ],
+        "reasoning": "Ani görme kaybı retinal acil durumu"
+      },
+      {
+        "text": "Şiddetli göğüs ağrısı var ama kalp değil sanki akciğer ağrıyor",
+        "symptoms": [
+          "göğüs ağrısı",
+          "akciğer ağrısı",
+          "plöretik ağrı"
+        ],
+        "reasoning": "Plöretik ağrı ciddi akciğer hastalığı işareti"
+      }
+    ],
+    "Yesil": [
+      {
+        "text": "2 haftadır öksürük var balgamlı ateşim yok",
+        "symptoms": [
+          "kronik öksürük",
+          "balgam"
+        ],
+        "reasoning": "Kronik öksürük muayene gerektirir ama acil değil"
+      },
+      {
+        "text": "Sırtım ağrıyor sabah kalkarken kötüleşiyor 1 haftadır",
+        "symptoms": [
+          "sırt ağrısı",
+          "sabah tutukluğu"
+        ],
+        "reasoning": "Mekanik sırt ağrısı acil değil"
+      },
+      {
+        "text": "Derim çok kurudu kaşıntı var kızarık yerler çıktı",
+        "symptoms": [
+          "kuru deri",
+          "kaşıntı",
+          "kızarıklık"
+        ],
+        "reasoning": "Deri problemleri rahatsız edici ama acil değil"
+      },
+      {
+        "text": "Mide yanması var yemekten sonra artıyor 1 haftadır",
+        "symptoms": [
+          "mide yanması",
+          "dispepsi"
+        ],
+        "reasoning": "Mide yakınmaları tedavi edilebilir"
+      },
+      {
+        "text": "Uykusuzluk problemim var gece 2-3 saat uyuyorum",
+        "symptoms": [
+          "uykusuzluk",
+          "insomnia"
+        ],
+        "reasoning": "Uyku problemleri yaşam kalitesini etkiler"
+      },
+      {
+        "text": "Dizimde ağrı var özellikle merdiven çıkarken zorlanıyorum",
+        "symptoms": [
+          "diz ağrısı",
+          "hareket kısıtlılığı"
+        ],
+        "reasoning": "Kronik diz ağrısı muayene gerektirir"
+      }
+    ]
+  }
+}

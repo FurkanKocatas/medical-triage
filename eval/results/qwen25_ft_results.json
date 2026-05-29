@@ -1,0 +1,28 @@
+{
+  "tag": "qwen25_ft",
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "adapter": "models\\qwen25_15b_qlora\\final_adapter",
+  "size_mb": 48.4,
+  "size_desc": "adapter only",
+  "peak_gpu_mem_mb": 3279.3,
+  "load_time_sec": 3.69,
+  "total_samples": 553,
+  "parse_ok_count": 552,
+  "parse_ok_rate": 0.9982,
+  "avg_latency_ms": 1390.72,
+  "p50_latency_ms": 1405.77,
+  "p95_latency_ms": 1500.0,
+  "triaj": {
+    "accuracy": 0.6221,
+    "f1_macro": 0.2599,
+    "f1_weighted": 0.4829,
+    "false_green_rate": 0.0,
+    "false_negative_rate_red": 1.0
+  },
+  "bolum": {
+    "accuracy": 0.6094,
+    "f1_macro": 0.3506,
+    "f1_weighted": 0.5825
+  },
+  "classification_report_triaj": "              precision    recall  f1-score   support\n\n       Yesil      1.000     0.006     0.011       174\n        Sari      0.626     0.994     0.768       345\n     Kirmizi      0.000     0.000     0.000        34\n\n   micro avg      0.627     0.622     0.624       553\n   macro avg      0.542     0.333     0.260       553\nweighted avg      0.705     0.622     0.483       553\n"
+}

@@ -1,0 +1,25 @@
+[*] device=cuda dtype=torch.bfloat16
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:02,  5.40it/s]Loading weights:  15%|#5        | 51/338 [00:00<00:01, 216.46it/s]Loading weights:  27%|##6       | 91/338 [00:00<00:00, 285.66it/s]Loading weights:  40%|####      | 136/338 [00:00<00:00, 340.65it/s]Loading weights:  54%|#####4    | 183/338 [00:00<00:00, 379.22it/s]Loading weights:  66%|######6   | 224/338 [00:00<00:00, 377.50it/s]Loading weights:  79%|#######8  | 267/338 [00:00<00:00, 386.92it/s]Loading weights:  93%|#########3| 315/338 [00:00<00:00, 397.98it/s]Loading weights: 100%|##########| 338/338 [00:00<00:00, 349.48it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+W0424 21:18:38.092000 23104 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[*] adapter loaded + merged: models\qwen25_15b_qlora\final_adapter
+[*] evaluating 553 samples
+  50/553 done (avg latency 1450.2ms)
+  100/553 done (avg latency 1431.8ms)
+  150/553 done (avg latency 1420.6ms)
+  200/553 done (avg latency 1403.6ms)
+  250/553 done (avg latency 1400.4ms)
+  300/553 done (avg latency 1398.0ms)
+  350/553 done (avg latency 1391.4ms)
+  400/553 done (avg latency 1390.8ms)
+  450/553 done (avg latency 1389.9ms)
+  500/553 done (avg latency 1389.1ms)
+  550/553 done (avg latency 1390.8ms)
+
+=== Results [qwen25_ft] ===
+  parse_ok: 99.8%
+  latency: 1390.7ms (p95=1500.0ms)
+  size: 48.4MB (adapter only)
+  peak GPU: 3279MB
+  TRIAJ acc=0.6221 macro-F1=0.2599 weighted-F1=0.4829 FGR=0.0 FNR-Red=1.0
+  BOLUM acc=0.6094 macro-F1=0.3506 weighted-F1=0.5825
