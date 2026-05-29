@@ -20,6 +20,7 @@ logs/
 
 # --- Sunum (hocaya ayrı gönderilir; repoda tutulmaz) ---
 sunum.pptx
+scripts/make_presentation.py
 
 # --- Geçici / hassas dosyalar ---
 tmp.bin/
